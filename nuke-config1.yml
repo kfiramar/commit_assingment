@@ -1,0 +1,16 @@
+---
+regions:
+  - "global"
+  - "eu-west-1"
+  - "eu-west-1"
+
+account-blocklist:
+  - "000000000000" # Your actual account ID here for safety
+
+resource-types:
+  excludes:
+    # don't nuke OpenSearch Packages, see https://github.com/rebuy-de/aws-nuke/issues/1123
+    - OSPackage
+
+accounts:
+  "533267130709": {}
